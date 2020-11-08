@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body,
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden
+}
+
+header {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(image2.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+}
+
+nav {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+    
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 35px;
+    margin-right: 40px;
+}
+
+.dg {
+    float: left;
+    height: 100px;
+    border-radius: 30px;
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 55px;
+    margin-bottom: 7px;
+    margin-left: -20px;
+}
+.r{
+    display: block;
+    margin-left: -20px;
+
+}
+
+
+nav ul {
+    display: flex;
+    float: right !important;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 30px;
+}
+
+nav ul li {
+    margin: 0 5px;
+    float: right !important;
+}
+
+nav ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    float: right !important;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: white;
+    border-bottom: 3px solid #e67e22;
+}
+.btn-group:hover {
+    color: white;
+    border-bottom: 3px solid #e67e22;
+    border-radius: 5px;
+}
+.dropdown-item{
+    font-size: 15px;
+}
+
+nav .menu-btn i {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+
+
+.content {
+    position: absolute;
+
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%)
+}
+
+
+.content div {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+}
+
+.btn1,
+.btn2 {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color .2s, border .2s, color .2s;
+    border: 1px solid #e67e22;
+    color: #e67e22;
+    margin-right: 15px;
+    ;
+}
+
+.btn1:hover,
+.btn2:hover {
+    border: 1px solid #cf6d17;
+    color: white;
+    background-color: #cf6d17
+}
+
+
+.content2{
+     background-color: #f4f4f4;
+    
+}
+.row{
+    background-color: #f4f4f4;
+}
+.col-md{
+    background-color: white;
+}
+
+
+.college-logo{
+    display:inline-block ;
+    margin: 20px 10px 10px 10px;
+    
+}
+.name{
+    display: inline-block;
+    margin: 20px 10px 10px 10px;
+
+}
+.img-fluid1{
+    
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.icons{
+    padding: 10px;
+}
+.icons1{
+    padding: 10px;
+}
+.icons a:hover {
+    color: blue;
+    
+}
+.icon1:hover{
+    color: blue;
+}
+.number{
+    padding: 10px;
+    color: black;
+}
+.number:hover {
+    color: blue;
+}
+
+.membership{
+    color: Black;
+    text-align: center;
+    font-size: 35px;
+   
+}
+
+
+
+
+.section-plans {
+    background-color: #f4f4f4;
+    
+}
+
+.plan-box {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px rgb(233, 231, 231, .4)
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid rgba(214, 214, 214, .578)
+}
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: 0
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: #e67e22
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300
+}
+
+.plan-price-meal {
+    font-size: 80%
+}
+
+.plan-box ul {
+    list-style: none
+}
+
+.plan-box ul li {
+    padding: 5px 0
+}
+
+
+.content7 {
+
+    background-image: url(bground5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content4 {
+
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+
+.container5 {
+
+    align-self: center;
+    padding: 1% 34%;
+
+}
+
+
+
+
+
+.bottom-link {
+
+    padding: 20px 0 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    word-spacing: 3px;
+    color: black;
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.social-network a.icoInstagram {
+    background-color: #FF0000;
+}
+
+.social-network a.icoFacebook {
+    background-color: #3B5998;
+}
+
+.social-network a.icoTwitter {
+    background-color: #33ccff;
+}
+
+.social-network a.icoGoogle {
+    background-color: #BD3518;
+}
+
+.social-network a.icoVimeo {
+    background-color: #0590B8;
+}
+
+.social-network a.icoLinkedin {
+    background-color: #007bb7;
+}
+
+.social-network a.icoInstagram:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoVimeo:hover i,
+.social-network a.icoLinkedin:hover i {
+    color: #fff;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #D3D3D3;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.copyright {
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+

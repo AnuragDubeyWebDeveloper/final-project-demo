@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+* {
+  font-family: 'Open Sans', sans-serif;
+ 
+  
+}
+
+body {
+	
+  margin: 0;
+  padding: 0;
+  background: #111;
+}
+
+.signupSection {
+ 
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://source.unsplash.com/TV2gg2kZD1o/1600x800);
+  background-repeat:no-repeat;
+  background-position:cover;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height:100%;
+  text-align: center;
+  display: flex;
+  color: white;
+ 
+  
+}
+
+
+.signupForm {
+  margin:auto;
+  margin-top:20px;
+  padding: 30px 0;
+  transition: .2s;
+  h2 {
+    font-weight: 300;
+  }
+}
+
+.inputFields {
+  margin: 10px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 1200px;
+  border: 1px solid rgba(10, 180, 180, 1);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(20, 20, 20, .2);
+  color: white;
+  outline: none;
+}
+
+.noBullet {
+  list-style-type: none;
+  padding: 0;
+}
+.label
+{
+	margin-left:auto;
+}
+.media
+{
+	border:1px solid black;
+	height:300px;
+	width:545px;
+	float:left;
+	margin:10px 20px;
+	text-align:center;
+}
+
+#add {
+  border: 1px solid rgba(10, 180, 180, 1);
+  background: rgba(20, 20, 20, .6);
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: .4s;
+  &:hover {
+    background: rgba(20, 20, 20, .8);
+    padding: 10px 80px;
+  }
+}
+
